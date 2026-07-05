@@ -1,2 +1,2 @@
 # Maincraft-plugin_SkyStart
-【Maincraft】スカイランナー-テレポート
+【Maincraft】スカイランナー-初期位置テレポート
