@@ -1,0 +1,6 @@
+# build temp
+/build/
+*.class
+# OS
+Thumbs.db
+.DS_Store

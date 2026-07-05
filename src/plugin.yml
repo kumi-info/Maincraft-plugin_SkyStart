@@ -1,0 +1,19 @@
+name: SkyStart
+version: '1.0.0'
+main: local.skystart.SkyStart
+api-version: '1.21'
+author: nikonico
+description: 's2e-skyrunner の startLocation を読み取り、プレイヤーをスタート地点へテレポートします。'
+commands:
+  skystart:
+    description: 'Skyrunner のスタート地点へテレポート'
+    usage: |
+      §6/skystart§r - §a自分をスタート地点へTP§r
+      §6/skystart <player>§r - §a指定プレイヤーをスタート地点へTP§r
+      §6/skystart all§r - §a全員をスタート地点へTP§r
+    aliases: [srtp, srstart]
+    permission: skystart.use
+permissions:
+  skystart.use:
+    description: 'スタート地点TPコマンドの使用を許可'
+    default: op
